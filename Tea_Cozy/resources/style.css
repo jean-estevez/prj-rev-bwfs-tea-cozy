@@ -1,0 +1,156 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    background-color: black;
+    opacity: 0.9;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav a {
+    color: seashell;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+/* Universal */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background-color: black;
+    width: 1200px;
+    padding: 0;
+}
+
+.banner h2 {
+    margin-top: 6px;
+}
+
+.banner h4 {
+    margin-bottom: 6px;
+}
+
+/* Featured Tea */
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-bottom: 60px;
+}
+
+.shop h2 {
+    margin-top: 60px;
+}
+
+.shop h4 {
+    margin-top: 5px;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 520px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+}
+
+.item img {
+    height: 200px;
+    width: 300px;
+}
+
+.item span {
+    margin-top: 10px;
+}
+
+/* Locations */
+
+#locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations h2 {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.tea-stores {
+    display: flex;
+    flex-direction: row;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    opacity: 1.0;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.address p {
+    margin: 30px;
+    font-size: 19px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
